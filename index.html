@@ -1,0 +1,25 @@
+#Display timer after 5 seconds
+
+
+//create a function 
+
+
+<script>
+
+function IntervalTime(){
+        var time = new Date();
+        var TimeNow = time.toLocaleTimeString();
+        document.getElementById("ele").innerHTML = TimeNow;
+}
+
+setTimeout(TimeLate, 5000);
+
+function TimeLate(){
+       setInterval(IntervalTime, 1000);
+}
+
+
+</script>
+
+
+//Thank you for reading the post. Have a great day!
